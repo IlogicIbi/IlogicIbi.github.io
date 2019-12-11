@@ -13,7 +13,7 @@
         @import url('https://fonts.googleapis.com/css?family=Tomorrow&display=swap');
 
         body.fondo {
-            background-image: url("../pagina web/imagenes/fondo5.jpg");
+            background-image: url(".    /imagenes/fondo5.jpg");
             background-repeat: none;
         }
 
@@ -48,7 +48,8 @@
         }
 
         h1 {
-            text-align: center;
+            display: flex;
+            justify-content: center;
             font-family: 'Tomorrow', sans-serif;
             width: 500px;
 
@@ -220,9 +221,10 @@
 
         table.tab1 {
             width: 300px;
-            margin-right: 180px;
+            margin-right: 200px;
             border-collapse: collapse;
             margin-bottom: 200px;
+
         }
 
         .title {
@@ -230,8 +232,10 @@
         }
 
         p.texto {
-            text-align: left;
-            font-size: 23px;
+            display: flex;
+            justify-content: start;
+            font-size: 15px;
+
         }
 
         ul li {
@@ -543,32 +547,33 @@
 
 
 
-    </body>
 
-    <br>
-    <div class="videos">
-        <div class="online">
-            <div class="nintendo">
-                <iframe width="300" height="200" src="https://www.youtube.com/embed/f5uik5fgIaI" frameborder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+
+        <br>
+        <div class="videos">
+            <div class="online">
+                <div class="nintendo">
+                    <iframe width="300" height="200" src="https://www.youtube.com/embed/f5uik5fgIaI" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="ps">
+                    <iframe width="300" height="200" src="https://www.youtube.com/embed/Jw8HCFZkBds" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="xbox">
+                    <iframe width="300" height="200" src="https://www.youtube.com/embed/Spz5olq7K1A" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
             </div>
-            <div class="ps">
-                <iframe width="300" height="200" src="https://www.youtube.com/embed/Jw8HCFZkBds" frameborder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-            </div>
-            <div class="xbox">
-                <iframe width="300" height="200" src="https://www.youtube.com/embed/Spz5olq7K1A" frameborder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-            </div>
+
         </div>
-
-    </div>
-    <footer>
-        <p class="footer">Copyright © 2019 Apowersoft Ltd. Todos los derechos reservados.</p>
-        <a name="final"></a>
-    </footer>
+        <footer>
+            <p class="footer">Copyright © 2019 Apowersoft Ltd. Todos los derechos reservados.</p>
+            <a name="final"></a>
+        </footer>
+    </body>
 
 </html>
